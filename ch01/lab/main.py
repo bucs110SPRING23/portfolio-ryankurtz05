@@ -14,8 +14,9 @@ print("Classes per week:" , classes_per_week)
 cost_per_class = (cost_per_week / classes_per_week)
 print("Cost per class:", cost_per_class)
 
+
 #Part B
-myList = ('a',65,'o',"star",32)
+myList = ['a',65,'o',"star",3]
 
 rndObj = random.choice(myList)
 
