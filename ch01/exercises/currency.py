@@ -5,4 +5,4 @@ total = float(rate) * float(amount)
 
 result = total - 3
 
-print("A Euro is worth",rate,"USD, so your",amount,"gives you $",result,"after our service fee of $3.")
+print(result)
