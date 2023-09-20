@@ -1,5 +1,7 @@
 import turtle #1. import modules
 import random
+import pygame
+import math
 
 #Part A
 window = turtle.Screen() # 2.  Create a screen
@@ -18,9 +20,26 @@ michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
 ## 5. Your PART A code goes here
+michelangelo.forward(random.randrange(1,101))
+leonardo.forward(random.randrange(1,101))
+#Reset
+michelangelo.goto(-100,20)
+leonardo.goto(-100,-20)
 
+
+for i in range(3):
+    michelangelo.forward(random.randrange(1,101))
+    leonardo.forward(random.randrange(1,101))
+#Reset
+michelangelo.goto(-100,20)
+leonardo.goto(-100,-20)
 
 # PART B - complete part B here
+pygame.init()
+display = pygame.display.set_mode()
+
+points = list()
+numSides = int()
 
 
 window.exitonclick()
